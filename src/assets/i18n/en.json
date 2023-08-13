@@ -1,0 +1,166 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "",
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "Highly skilled Software Engineer with <span class='underline'>four years of experience</span> in <span class='underline'>Node.js</span>, <span class='underline'>AWS</span>, <span class='underline'>Laravel</span>, <span class='underline'>MongoDB</span>, and <span class='underline'>MySQL</span>. Proficient in designing, building, and deploying web applications. Adept at creating scalable and efficient solutions. Passionate about delivering high-quality code and continuously learning to stay at the forefront of technology.",
+    "Banner.ActionBtn": "Get in touch",
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "Experienced Senior Software Engineer with a successful track record spanning four years in the telecommunications industry. A proven catalyst for innovation, consistently delivering exceptional results.",
+        "I possess strong expertise in implementing system enhancements, adept at leading teams, optimizing website performance, standardizing coding patterns, and proactively contributing valuable ideas that elevate the project's success.",
+        "My skillset encompasses various technologies that I have trained and excelled in, such as (but not limited to):"
+    ],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [{
+            "Tab": "Senior Software Engineer",
+            "Title": "Waybeo Technology Solutions Pvt Ltd",
+            "Date": "April 2022 - April 2023",
+            "Description": [
+              "Led diverse call-tracking software projects, leveraging cutting-edge tech like Node.js, PHP, ARI, MySQL, and Shell Scripting.",
+              "Leveraged Shell Scripting for automation and efficiency improvements in various processes.",
+              "Utilized AWS services (DynamoDB, CloudWatch, Lambda functions, API Gateway, RDS, SQS, EC2) to build scalable and robust cloud solutions.",
+              "Managed servers on CentOS and Apache to ensure high-performance application hosting.",
+              "Demonstrated expertise in Continuous Integration/Deployment Pipeline integration to streamline software development processes.",
+              "Proficiently conducted code reviews to ensure code quality, adherence to coding standards, and identify areas for improvement.",
+              "Implemented telephony solutions using Asterisk, optimizing call-tracking and communication processes.",
+              "Skilled in web hosting, domain registration, and DNS management,ensuring effective online presence and secure data transmission."
+            ]
+        },
+        {
+            "Tab": "Software Engineer",
+            "Title": "Waybeo Technology Solutions Pvt Ltd",
+            "Date": "September 2020 - March 2022",
+            "Description": [
+              "Delivered over 20 robust and feature-rich call tracking software solutions utilizing technologies such as Laravel, Angular, jQuery, JavaScript, AJAX, LAMP Stack",
+              "Utilized Git for version control to streamline collaboration and maintain code integrity.",
+              "Skillfully executed unit, integration, and end-to-end testing to verify the functionality and performance of software applications.",
+              "Proficiently worked with databases like MySQL, MongoDB, Redis, and MariaDB for efficient data storage and retrieval.",
+              "Engineered cutting-edge service API interfaces facilitating automatic call origination, call flow recording, and database storage, along with IVR audio file uploads.",
+              "Proficient in efficiently navigating the Linux command line, adeptly handling commands, directories, and files.",
+              "Skilled in managing crontab, scheduling automated tasks effectively."
+            ]
+        },
+        {
+            "Tab": "Junior Software Engineer",
+            "Title": "Waybeo Technology Solutions Pvt Ltd",
+            "Date": "August 2019 - August 2020",
+            "Description": [
+              "Executed multiple third-party integrations, utilizing platforms like Zoho CRM, Salesforce, Leadsquared, and Adobe Analytics.",
+              "Designed and implemented administrative panels for diverse call tracking software solutions, enhancing user interface and streamlining data management.",
+              "Demonstrated expertise in setting up email and SMS systems for seamless communication.",
+              "Utilized MongoDB's document-oriented structure to efficiently store and manage call records, reducing query response times by 60%",
+              "Employed Docker for containerization, simplifying application deployment and scalability.",
+              "Developed responsive and user-friendly frontend using HTML, CSS, Bootstrap, and XML.",
+              "Efficiently handled projects using project management tools like Jira and Trello, ensuring seamless communication and task tracking.",
+              "Created JavaScript library for the clienside validation"
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [{
+            "Title": "Call Tracking Reports",
+            "Description": "Call-tracking application made from scratch with filter options, users can filter conversations by <span class='underline'>marketing source, caller location, spoken words</span> and more, and explore all conversations to evaluate lead quality, call experience, and outcomes.",
+            "imgs": [
+                "assets/images/CT/ct1.png",                
+                "assets/images/CT/ct3.png",
+                "assets/images/CT/ct4.png",
+                "assets/images/CT/ct2.png"
+            ],
+            "ghLink": "https://github.com/AnjimaShaji/Dashboard",
+            "Technologies": ["Node.js","AWS","Laravel", "Angular", "Jquery", "JavaScript", "AJAX","MySQL","MongoDB"]
+        },
+        {
+            "Title": "Click to Call",
+            "Description": "By clicking the <span class='underline'>call button</span>, users connect in real-time through a stasis application that listens to <span class='underline'>ARI events</span>. The app registers instantly when a call starts, efficiently managing call processes with predefined flows.",
+            "imgs": [
+                "assets/images/CTC/ctc.jpg"
+            ],
+            "Technologies": ["Node.js","AWS","Core PHP","Laravel", "Shell Scripting", "Jquery", "JavaScript", "AJAX","MySQL","MongoDB"]
+        },
+        {
+            "Title": "Tata Call Analytics Dashboard",
+            "Description": "Dahboard for getting an overall monthly anaysis about the <span class='underline'>outbound calls</span> and <span class='underline'>lead push</span> details using various graphs.",
+            "imgs": [
+                "assets/images/OB/OB1.png",
+                "assets/images/OB/OB2.png",
+                "assets/images/OB/OB3.png",
+                "assets/images/OB/OB4.png"
+            ],
+            "Technologies": ["Node.js","AWS","Laravel", "Jquery", "JavaScript", "AJAX", "HTML", "MySQL","MongoDB"]
+        },
+        {
+            "Title": "Nissan Ticketing System",
+            "Description": "Application for managing <span class='underline'>store numbers</span> and <span class='underline'>working hours</span> changes requested by nissan managers. The admin user will get <span class='underline'>email notifications</span> about the change requests and in admin login all change request will be listed out user can <span class='underline'>approve or deny</span> these change requests.",
+            "imgs": ["assets/images/Ticket/Ticket.png"],
+            "Technologies": ["Laravel", "Jquery", "JavaScript", "AJAX", "HTML", "MySQL"]
+        },
+        {
+            "Title": "Bridgestone Customer Feedback",
+            "Description": "Customers who have engaged with Bridgestone in the last two months will get a <span class='underline'>feedback message with a bitly link</span>. Using this link they can give <span class='underline'>feedback and rating score</span> about the Bridgestone service. After the successful completion of feedback, customers will get a reply <span class='underline'>SMS</span> according to the feedback and rating.",
+            "imgs": ["assets/images/Bri/Bridgestone.png"],
+            "ghLink": "https://github.com/andresjosehr/countries-viewer",
+            "demoLink": "https://projects.andresjosehr.com/countries-viewer",
+            "Technologies": ["Laravel", "Jquery", "JavaScript", "AJAX", "HTML", "MySQL"]
+        },
+        {
+            "Title": "Login Activity",
+            "Description": "A comprehensive login activity dashboard, to monitor <span class='underline'>user access patterns and enhance security measures</span>. Integrated data visualization tools to provide insights into user behavior and authentication trends.",
+            "imgs": ["assets/images/log/log.png"],
+            "Technologies": [ "Laravel","Jquery", "JavaScript", "AJAX", "HTML", "MySQL"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [{
+            "Title": "CallLog Handler",
+            "Description": "Web service that processes various call logs written in JSON format in text files. The calllog handler reads the JSON content and performs various MySQL and Mongo database operations on it to help process requests to the APIs.",
+            "ghLink": "https://github.com/AnjimaShaji/CallLog-Handler",
+            "Technologies": ["Node.js", "MySQL", "API", "MongoDB","Shell Scripting"]
+        },
+        {
+            "Title": "Telecom Call Flow Manager",
+            "Description": "Implemented various service API interfaces that help to originate phone calls, record and send various call flows to the database, and upload audio files for IVR phone calls.",
+            "ghLink": "https://github.com/AnjimaShaji/CallFlow-Manager",
+            "Technologies": ["Lumen","API","MySQL"]
+        },
+        {
+            "Title": "Stasis Applications",
+            "Description": "A WebSocket that will listen to ARI events and register your application when a call is launched,After that will process this call based on the pre-defined call flow.",
+            "ghLink": "https://github.com/AnjimaShaji/Stasis_Application",
+            "Technologies": ["Asterisk","Node.js", "PHP", "AWS","MySQL","MongoDB"]
+        },
+        {
+            "Title": "Automatic Call Logging in CRMs",
+            "Description": "Automated logging of call logs and recordings is implemented for each customer and lead, seamlessly integrated into Zoho CRM, Leadsquared, and Adobe Analytics platforms.",
+            "Technologies": ["Laravel","Zend","Curl","REST API","MySQL"]
+        },
+        {
+            "Title": "Opinion Mining for Resort Rating through reviews",
+            "Description": "Developed a system that employs natural language processing to uncover underlying sentiments in customer feedback, contributing to more accurate and insightful review ratings.",
+            "ghLink": "https://github.com/AnjimaShaji/Research_Project",
+            "Technologies": ["Core PHP"," HTML"," MySQL"," JavaScript","AJAX"]
+        },
+        {
+            "Title": "Apartment Management System",
+            "Description": "Offers a practical solution for effectively managing day-to-day apartment operations.",
+            "Technologies": ["Core PHP"," HTML"," MySQL"," JavaScript","AJAX"]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
+    "Contact.Btn": "Say Hello"
+
+
+}
