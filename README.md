@@ -1,8 +1,8 @@
 # AnjimaShaji-Portfolio 
-Experienced and motivated software engineer with a dedicated emphasis on problem-solving and achieving objectives. Possessing more than four years of expertise within a product-oriented firm, skilled in team leadership, software architecture design, project administration, and cross-functional cooperation.
+Experienced and motivated software engineer with a dedicated emphasis on problem-solving and achieving objectives. Possessing more than four years of expertise within a product-oriented firm, skilled in team leadership, software architecture design, project administration, and cross-functional cooperation..
 
 Click the link below to open my portfolio.
-<https://anjimashaji.github.io/anjima-portfolio/>
+<https://mufeez1.github.io/muffeez/> 
 
 ## Development server
 
