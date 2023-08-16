@@ -107,8 +107,6 @@
             "Title": "Bridgestone Customer Feedback",
             "Description": "Customers who have engaged with Bridgestone in the last two months will get a <span class='underline'>feedback message with a bitly link</span>. Using this link they can give <span class='underline'>feedback and rating score</span> about the Bridgestone service. After the successful completion of feedback, customers will get a reply <span class='underline'>SMS</span> according to the feedback and rating.",
             "imgs": ["assets/images/Bri/Bridgestone.png"],
-            "ghLink": "https://github.com/andresjosehr/countries-viewer",
-            "demoLink": "https://projects.andresjosehr.com/countries-viewer",
             "Technologies": ["Laravel", "Jquery", "JavaScript", "AJAX", "HTML", "MySQL"]
         },
         {
